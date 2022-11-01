@@ -3,6 +3,7 @@ import { getSingleItemFromAPI } from "../../mockService/mockService";
 import { useParams } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 
+
 function ItemDetailContainer() {
     const [product, setProduct] = useState([]);
 
