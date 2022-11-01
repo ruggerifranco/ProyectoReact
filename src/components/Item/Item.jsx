@@ -10,7 +10,7 @@ let urlDetail = `/detalle/${product.id}`;
   return (
     <div className="card">
       <div className="card-img">
-        <img src={product.thumbnail} alt="imagen"/>
+        <img src={product.thumbnail} alt={product.title}/>
       </div>
       <div className="card-detail">
         <h2>{product.title}</h2>

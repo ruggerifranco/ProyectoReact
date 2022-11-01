@@ -3,9 +3,9 @@ const itemsDB = [
     {
         id: 1,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/piñata-mike.jpeg",
+        thumbnail: "/img copy/piñata-mike.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -13,9 +13,9 @@ const itemsDB = [
     {
         id: 2,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-arcoiris.jpeg",
+        thumbnail: "/img copy/Piñata-arcoiris.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -23,9 +23,9 @@ const itemsDB = [
     {
         id: 3,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-batman.jpeg",
+        thumbnail: "/img copy/Piñata-batman.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -33,9 +33,9 @@ const itemsDB = [
     {
         id: 4,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-bobConstructor.jpeg",
+        thumbnail: "/img copy/Piñata-bobConstructor.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -43,9 +43,9 @@ const itemsDB = [
     {
         id: 5,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-bobEsponja.jpeg",
+        thumbnail: "/img copy/Piñata-bobEsponja.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -53,9 +53,9 @@ const itemsDB = [
     {
         id: 6,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-Cangrejo.jpeg",
+        thumbnail: "/img copy/Piñata-Cangrejo.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -63,9 +63,9 @@ const itemsDB = [
     {
         id: 7,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-CaraMinie.jpeg",
+        thumbnail: "/img copy/Piñata-CaraMinie.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -73,9 +73,9 @@ const itemsDB = [
     {
         id: 8,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-corazonRojo.jpeg",
+        thumbnail: "/img copy/Piñata-corazonRojo.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -83,9 +83,9 @@ const itemsDB = [
     {
         id: 9,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-dinosaurio.jpeg",
+        thumbnail: "/img copy/Piñata-dinosaurio.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -93,9 +93,9 @@ const itemsDB = [
     {
         id: 10,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-dinosaurioVioleta.jpeg",
+        thumbnail: "/img copy/Piñata-dinosaurioVioleta.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -103,9 +103,9 @@ const itemsDB = [
     {
         id: 11,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-emojiCaraFeliz.jpeg",
+        thumbnail: "/img copy/Piñata-emojiCaraFeliz.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -113,9 +113,9 @@ const itemsDB = [
     {
         id: 12,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-flor.jpeg",
+        thumbnail: "/img copy/Piñata-flor.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -123,9 +123,9 @@ const itemsDB = [
     {
         id: 13,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-gato.jpeg",
+        thumbnail: "/img copy/Piñata-gato.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -133,9 +133,9 @@ const itemsDB = [
     {
         id: 14,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-mariposa.jpeg",
+        thumbnail: "/img copy/Piñata-mariposa.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -143,9 +143,9 @@ const itemsDB = [
     {
         id: 15,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-miniGrande.jpeg",
+        thumbnail: "/img copy/Piñata-miniGrande.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -153,9 +153,9 @@ const itemsDB = [
     {
         id: 16,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-minion.jpeg",
+        thumbnail: "/img copy/Piñata-minion.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -163,9 +163,9 @@ const itemsDB = [
     {
         id: 17,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-numero1.jpeg",
+        thumbnail: "/img copy/Piñata-numero1.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -173,9 +173,9 @@ const itemsDB = [
     {
         id: 18,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-numero3Shrek.jpeg",
+        thumbnail: "/img copy/Piñata-numero3Shrek.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -183,9 +183,9 @@ const itemsDB = [
     {
         id: 19,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-patricio.jpeg",
+        thumbnail: "/img copy/Piñata-patricio.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -193,9 +193,9 @@ const itemsDB = [
     {
         id: 20,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-perro.jpeg",
+        thumbnail: "/img copy/Piñata-perro.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -203,9 +203,9 @@ const itemsDB = [
     {
         id: 21,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-robot.jpeg",
+        thumbnail: "/img copy/Piñata-robot.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -213,9 +213,9 @@ const itemsDB = [
     {
         id: 22,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-Robot2.jpeg",
+        thumbnail: "/img copy/Piñata-Robot2.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -223,9 +223,9 @@ const itemsDB = [
     {
         id: 23,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-sirena.jpeg",
+        thumbnail: "/img copy/Piñata-sirena.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -233,9 +233,9 @@ const itemsDB = [
     {
         id: 24,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-duo.jpeg",
+        thumbnail: "/img copy/Piñata-duo.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -243,9 +243,9 @@ const itemsDB = [
     {
         id: 25,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-leopardo.jpeg",
+        thumbnail: "/img copy/Piñata-leopardo.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -253,9 +253,9 @@ const itemsDB = [
     {
         id: 26,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-dragon.jpeg",
+        thumbnail: "/img copy/Piñata-dragon.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -263,9 +263,9 @@ const itemsDB = [
     {
         id: 27,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-perra.jpeg",
+        thumbnail: "/img copy/Piñata-perra.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -273,9 +273,9 @@ const itemsDB = [
     {
         id: 28,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-oso.jpeg",
+        thumbnail: "/img copy/Piñata-oso.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -283,9 +283,9 @@ const itemsDB = [
     {
         id: 29,
         title: "PIÑATA",
-        detail: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
+        description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
         price: 3500,
-        imgurl: "/img copy/Piñata-perroAzul.jpeg",
+        thumbnail: "/img copy/Piñata-perroAzul.jpeg",
         stock: 10,
         category: "Piñatas"
     },
@@ -298,20 +298,20 @@ const itemsDB = [
 
     // {
     //     id: 0,
-    //     detail: "Sabemos que parte de la decoración de tu festejo son las guirnaldas. Podes encargar combos combinados con piñata y rosetas, y mucho más! Para más información contáctate con nosotros.",
+    //     description: "Sabemos que parte de la decoración de tu festejo son las guirnaldas. Podes encargar combos combinados con piñata y rosetas, y mucho más! Para más información contáctate con nosotros.",
     //     price: 2000,
     //     title: "GUIRNALDA",
-    //     imgurl: "/img copy/guirnalda-m.jpeg",
+    //     thumbnail: "/img copy/guirnalda-m.jpeg",
     //     stock: 10,
     //     category: "Guirnaldas"
     // },
 
     // {
     //     id: 0,
-    //     detail: "Sumale a tu decoracion rosetas, así será súper completa! Opciones de combos de acuerdo a la temática que más te guste.Contacte con nosotros para ayudarte con más información.",
+    //     description: "Sumale a tu decoracion rosetas, así será súper completa! Opciones de combos de acuerdo a la temática que más te guste.Contacte con nosotros para ayudarte con más información.",
     //     price: 3000,
     //     title: "ROSETA",
-    //     imgurl: "/img copy/roseta-jirafa.jpeg",
+    //     thumbnail: "/img copy/roseta-jirafa.jpeg",
     //     stock: 10,
     //     category: "Rosetas"
     // },
