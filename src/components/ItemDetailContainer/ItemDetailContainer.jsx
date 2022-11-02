@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import CartWidget from "../CartWidget/CartWidget";
 
 
+
 function ItemDetailContainer() {
     const [product, setProduct] = useState([]);
 
@@ -19,11 +20,11 @@ function ItemDetailContainer() {
     },[id]);
 
     return (
-        <div className="card">
-        <div className="card-img">
-          <img src={product.thumbnail} alt="{product.title}"/>
-        </div>
         <div className="card-detail">
+        <div className="card-img">
+          <img src={product.thumbnail} alt={product.title}/>
+        </div>
+        <div className="card-detail_detail">
           <h2>{product.title}</h2>
           <p>{product.description}</p>
           <h4 className="priceTag">$ {product.price}</h4>

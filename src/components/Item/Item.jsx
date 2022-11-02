@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import "./item.css";
 import CartWidget from "../CartWidget/CartWidget";
 
+
 function Item({ product }) {
 
 let urlDetail = `/detalle/${product.id}`;
