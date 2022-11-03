@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "./item.css";
-import CartWidget from "../CartWidget/CartWidget";
+// import CartWidget from "../CartWidget/CartWidget";
+// import ItemCount from "../ItemCount/ItemCount";
+
 
 
 function Item({ product }) {
@@ -21,8 +23,6 @@ let urlDetail = `/detalle/${product.id}`;
       <Link to={urlDetail}>
         <button>Ver más!</button>
       </Link>
-      <br />
-      <button><CartWidget/></button>
     </div>
   );
 }
