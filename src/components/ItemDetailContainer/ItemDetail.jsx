@@ -1,14 +1,17 @@
-import React, { useState } from "react";
+import React, { useState, useContext } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import Swal from "sweetalert2";
 import { useNavigate } from "react-router-dom";
+import cartContext from "../../storage/CartContext";
 
 function ItemDetail({ product }) {
   const [isInCart, setIsInCart] = useState(false);
+  const { addToCart } = useContext(cartContext);
+
 
   const navigate = useNavigate();
 
-  function onAddToCart(count) {
+  function onAddToCart(quantity) {
     Swal.fire({
       title: "Item Agregado al Carrito",
       text: "¿Deseas ir al carrito?",
@@ -20,6 +23,13 @@ function ItemDetail({ product }) {
         navigate("/cart");
       }
     });
+
+    const itemForCart = {
+      ...product,
+      quantity,
+    }
+
+    addToCart(itemForCart)
 
     setIsInCart(true);
   }

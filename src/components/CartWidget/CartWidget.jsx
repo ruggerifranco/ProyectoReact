@@ -1,7 +1,18 @@
-import React from "react";
+import React, { useContext } from "react";
+import cartContext from "../../storage/CartContext";
 
 function CartWidget() {
-  return <div><i class="bi bi-cart-plus"></i></div>;
+
+  const { totalItemsInCart } = useContext(cartContext);
+
+
+  return (
+
+    <div>
+      <i class="bi bi-cart-plus">{totalItemsInCart()}</i>
+    </div>
+)
 }
 
 export default CartWidget;
+ 
