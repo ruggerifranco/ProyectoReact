@@ -1,11 +1,13 @@
 import React, { useState, useContext } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import Swal from "sweetalert2";
-import { useNavigate } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import cartContext from "../../storage/CartContext";
 
 function ItemDetail({ product }) {
   const [isInCart, setIsInCart] = useState(false);
+  
+
   const { addToCart } = useContext(cartContext);
 
 
@@ -52,9 +54,11 @@ function ItemDetail({ product }) {
         />
       ) : (
         <div>
+          <Link to="/cart">
           <button>Ir al Carrito</button>
-          <button>Volver al catálogo</button>
-          <button>Quitar del carrito</button>
+          </Link>
+          <button>Volver al Catálogo</button>
+          <button>Quitar del Carrito</button>
         </div>
       )}
     </div>

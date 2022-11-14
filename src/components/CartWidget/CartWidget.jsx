@@ -1,5 +1,6 @@
 import React, { useContext } from "react";
 import cartContext from "../../storage/CartContext";
+import { Link } from "react-router-dom";
 
 function CartWidget() {
 
@@ -9,10 +10,14 @@ function CartWidget() {
   return (
 
     <div>
-      <i class="bi bi-cart-plus">{totalItemsInCart()}</i>
+      <Link class="bi bi-cart-plus" to="/cart">
+        {
+          totalItemsInCart() > 0 ?
+            <span>{totalItemsInCart()}</span> :
+            <></>
+        }</Link>
     </div>
-)
+  )
 }
 
 export default CartWidget;
- 

@@ -17,6 +17,7 @@ const itemsDB = [
         price: 3500,
         thumbnail: "/img copy/Piñata-arcoiris.jpeg",
         stock: 10,
+        discount: 15,
         category: "piñatas",
     },
 

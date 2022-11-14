@@ -40,20 +40,20 @@ export function CartContextProvider(props) {
 
     // }
 
-    // function removeItem(itemId) {
-    //     cart.filter
-    // }
+    function removeItem(itemId) {
+        
+    }
 
-    // function clear () {
+    function clear () {
 
-    // }
+    }
 
     const value = {
         cart,
         addToCart,
         totalItemsInCart,
-        // removeItem,
-        // clear,
+        removeItem,
+        clear,
         // totaPriceInCart,
     }
 
