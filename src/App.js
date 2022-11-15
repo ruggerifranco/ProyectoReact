@@ -6,8 +6,10 @@ import {CartContextProvider} from "./storage/CartContext"
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import CartView from "./components/CartiView/CartView";
 
+import { getSingleItemFromAPI } from "./services/firebase"
 
 function App() {
+  getSingleItemFromAPI()
   return (
     <div className="App">
       <CartContextProvider>
