@@ -1,44 +1,41 @@
 import React, { useState, useContext } from "react";
 import ItemCount from "../ItemCount/ItemCount";
-import Swal from "sweetalert2";
-import { Link, useNavigate } from "react-router-dom";
 import cartContext from "../../storage/CartContext";
+import { Link } from "react-router-dom";
 
 function ItemDetail({ product }) {
   const [isInCart, setIsInCart] = useState(false);
-  
 
-  const { addToCart } = useContext(cartContext);
+  const { cart, addToCart } = useContext(cartContext);
 
-
-  const navigate = useNavigate();
+  let itemInCart = cart.find((item) => product.id === item.id);
+  let stock = product.stock;
+  if (itemInCart) stock -= itemInCart.count;
 
   function onAddToCart(quantity) {
-    Swal.fire({
-      title: "Item Agregado al Carrito",
+    /* Swal.fire({
+      title: `Agregadas ${count} unidades al Carrito`,
       text: "¿Deseas ir al carrito?",
       icon: "success",
       confirmButtonText: "Ir al carrito",
-    }).then((result) => {
-      /* Read more about isConfirmed, isDenied below */
+    }).then((result) => {      
       if (result.isConfirmed) {
         navigate("/cart");
       }
-    });
+    }); */
 
     const itemForCart = {
       ...product,
       quantity,
-    }
+    };
 
-    addToCart(itemForCart)
-
+    addToCart(itemForCart);
     setIsInCart(true);
   }
 
   return (
     <div className="card-detail">
-      <div className="card-img">
+      <div className="card-detail_img">
         <img src={product.thumbnail} alt="Product img" />
       </div>
       <div className="card-detail_detail">
@@ -50,15 +47,15 @@ function ItemDetail({ product }) {
         <ItemCount
           text="Agregar al carrito"
           onAddToCart={onAddToCart}
-          stock={product.stock}
+          stock={stock}
         />
       ) : (
         <div>
           <Link to="/cart">
-          <button>Ir al Carrito</button>
+            <button>Ir al Carrito</button>
           </Link>
-          <button>Volver al Catálogo</button>
-          <button>Quitar del Carrito</button>
+          <button>Volver al catálogo</button>
+          <button>Quitar del carrito</button>
         </div>
       )}
     </div>
