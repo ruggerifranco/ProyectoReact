@@ -30,7 +30,7 @@ function ItemDetailContainer() {
   if (isLoading)
     return (
       <FlexWrapper>
-        <Loader color="blue" size={128} />
+        <Loader color="pink" size={128} />
       </FlexWrapper>
     );
 

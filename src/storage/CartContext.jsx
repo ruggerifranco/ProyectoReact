@@ -13,7 +13,7 @@ export function CartContextProvider(props) {
     if (itemFound) {
       let newCart = cart.map((itemInCart) => {
         if (itemInCart.id === itemData.id) {
-          itemInCart.count += itemData.count;
+          itemInCart.quantity += itemData.quantity;
           return itemInCart;
         } else {
           return itemInCart;
@@ -37,7 +37,7 @@ export function CartContextProvider(props) {
   function totalItemsInCart() {
     let total = 0;
     cart.forEach((itemInCart) => {
-      total = total + itemInCart.count;
+      total = total + itemInCart.quantity;
     });
     return total;
   }
@@ -45,14 +45,15 @@ export function CartContextProvider(props) {
   function totalPriceInCart() {
     let totalPrice = 0;
     cart.forEach((itemInCart) => {
-      totalPrice = totalPrice + itemInCart.count * itemInCart.price;
+      totalPrice = totalPrice + itemInCart.quantity * itemInCart.price;
     });
     return totalPrice;
   }
 
   function removeItem(itemId) {
     console.log("Removiendo el item", itemId);
-    /*  cart.filter */
+    let newCarrito = cart.filter ((item) => item.id !== itemId)
+    setCart(newCarrito)
   }
 
   function clear() {

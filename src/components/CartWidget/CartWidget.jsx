@@ -10,7 +10,7 @@ function CartWidget() {
   return (
 
     <div>
-      <Link class="bi bi-cart-plus" to="/cart">
+      <Link class="bi bi-cart" to="/cart">
         {
           totalItemsInCart() > 0 ?
             <span>{totalItemsInCart()}</span> :

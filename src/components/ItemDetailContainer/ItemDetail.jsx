@@ -2,6 +2,11 @@ import React, { useState, useContext } from "react";
 import ItemCount from "../ItemCount/ItemCount";
 import cartContext from "../../storage/CartContext";
 import { Link } from "react-router-dom";
+import { Navigate } from "react-router-dom"
+import Swal from 'sweetalert2'
+
+
+
 
 function ItemDetail({ product }) {
   const [isInCart, setIsInCart] = useState(false);
@@ -13,16 +18,12 @@ function ItemDetail({ product }) {
   if (itemInCart) stock -= itemInCart.count;
 
   function onAddToCart(quantity) {
-    /* Swal.fire({
-      title: `Agregadas ${count} unidades al Carrito`,
-      text: "¿Deseas ir al carrito?",
-      icon: "success",
-      confirmButtonText: "Ir al carrito",
-    }).then((result) => {      
-      if (result.isConfirmed) {
-        navigate("/cart");
-      }
-    }); */
+
+     Swal.fire({
+       title: `Agregadas ${quantity} unidades al Carrito`,
+       icon: "success",
+       confirmButtonColor: "pink"
+     })
 
     const itemForCart = {
       ...product,
@@ -54,8 +55,9 @@ function ItemDetail({ product }) {
           <Link to="/cart">
             <button>Ir al Carrito</button>
           </Link>
+          <Link to= "/">
           <button>Volver al catálogo</button>
-          <button>Quitar del carrito</button>
+          </Link>
         </div>
       )}
     </div>

@@ -128,9 +128,9 @@ export async function createBuyOrderFirestoreWithStock(buyOrderData) {
   return docOrderRef.id;
 }
 
-// export async function exportItemsToFirestore() {
-//     const items = [
-//         {
+//  export async function exportItemsToFirestore() {
+//      const items = [
+//          {
 //             id: 1,
 //             title: "PIÑATA",
 //             description: "Las piñatas son nuestra especialidad, son únicas, hechas especialmente para vos. Elegí tu diseño y tamaño como más te guste, y nosotros lo hacemos realidad. ¡Contanos tu idea y listo!",
@@ -602,5 +602,5 @@ export async function createBuyOrderFirestoreWithStock(buyOrderData) {
 //     delete item.id;
 //     const docRef = await addDoc(collectionRef, item);
 //     console.log("Document created with ID", docRef.id);
-//   }
-// }
+//    }
+//  }

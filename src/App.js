@@ -6,6 +6,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 import { CartContextProvider } from "./storage/CartContext";
 import CartView from "./components/CartView/CartView";
+import { exportItemsToFirestore } from "./services/firebase";
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           </Routes>
         </BrowserRouter>
       </CartContextProvider>
+      {/* <button onClick={exportItemsToFirestore}>items</button> */}
     </div>
   );
 }
